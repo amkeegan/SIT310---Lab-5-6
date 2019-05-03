@@ -1,0 +1,4 @@
+rosrun topic_tools mux /zumo/cmd_vel /zumo/1/cmd_vel /zumo/21/cmd_vel mux:=mux_cmdvel
+rosrun topic_tools mux /zumo/21/cmd_vel /zumo/2/cmd_vel /zumo/32/cmd_vel mux:=mux_cmdvel_avoid
+rosrun topic_tools mux /zumo/32/cmd_vel /zumo/3/cmd_vel /zumo/4/cmd_vel mux:=mux_cmdvel_back
+
